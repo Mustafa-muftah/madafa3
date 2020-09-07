@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    }
+    .header{
+     background-image: url('http://elmawkaa.com/img/bg/home-bg.jpg');
+    }
+    .topnav {
+    overflow: hidden;
+      position:sticky;
+      top:0;
+
+  }
+  
+  .topnav a {
+    float: right;
+background:rgba(2,2,2,0.2);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 29px;
+  }
+  
+  .topnav a:hover {
+   
+    color: blueviolet;
+  }
+.text {
+  text-align: center;
+  color:white;
+margin:130px;  
+  
+}
+.btn a{
+  font-weight:bold;
+   color: white;
+    background-color:blueviolet;
+  border-radius: 25px;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ margin:100px 600px;
+  cursor: pointer;
+}
+.container {
+    position: relative;
+    color: white;
+     float: right;
+     margin-right:50px;
+    width: 27%;
+    padding: 5px;
+    cursor:pointer;
+    
+  }
+  .container:hover {
+  opacity:0.4;
+  
+  }
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .container img {
+      width: 100%;
+    }
+  }
+  
+  .bottom-left {
+    position: absolute;
+    color:black;
+    border: 2px solid grey;
+    border-radius: 12px;
+    bottom: 48px;
+    left: 16px;
+    font-weight:bold;
+     padding:4px;
+  }
+  
+  .top-left {
+    position: absolute;
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+    top: 70px;
+    left: 120px;
+  }
+  
+  .top-right {
+    position: absolute;
+    color:black;
+    border: 2px solid grey;
+    border-radius: 12px;
+    top: 400px;
+    right: 16px;
+    font-weight:bold;
+     padding:4px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    color:black;
+    border: 2px solid grey;
+    border-radius: 12px;
+    bottom: 48px;
+    right: 16px;
+    font-weight:bold;
+    padding:4px;
+  }
+  
+  .centered {
+    position: absolute;
+    color:black;
+    border: 2px solid grey;
+    border-radius: 12px;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+     padding:4px;
+     margin:8px;
+  }#regiester {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: right;
+    width: 22%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .btn1 a{
+    font-weight:bold;
+     color: white;
+      background-color:grey;
+    border-radius: 15px;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   margin:100px 600px;
+    cursor: pointer;
+  }
+  .btn1 a:hover {
+  background-color:blueviolet;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.container1 {
+    position: relative;
+    color: white;
+     float: right;
+     margin-right:50px;
+    width: 27%;
+    padding: 5px;
+  }
+  .container1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .container1 img {
+      width: 100%;
+    }
+  }
+
+
+  .slider{
+ 
+    margin:20px auto;
+    text-align: center;
+    padding:20px;
+    color:white;
+  }
+    .parent-slide{padding:15px;}
+    img{display: block;margin:auto;width:30%}
+    .sec6 {
+        background-color:blueviolet;
+        height:400px;
+        }
+        .sec-6{
+          background-color:#533F94;
+          overflow: hidden;
+          width: 100%;
+          padding-bottom: 25px;
+        }
+  
+  
+      
+  
+        .imgs img{
+          padding: 10px;
+          display: inline-block;
+          margin-left: auto;
+          margin-right: auto;
+          height: 60px;
+            text-align: center;
+            
+        }
+  
+  
+        .sec-h6{
+          text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+  
+  
